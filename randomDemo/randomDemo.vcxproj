@@ -129,15 +129,20 @@
   <ItemGroup>
     <ClInclude Include="atomicBool.h" />
     <ClInclude Include="basic.h" />
-    <ClInclude Include="coinFlip.h" />
+    <ClInclude Include="chance.h" />
+    <ClInclude Include="characters.h" />
+    <ClInclude Include="defaultPRNG.h" />
+    <ClInclude Include="random.h" />
     <ClInclude Include="start.h" />
     <ClInclude Include="threads.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="atomicBool.cpp" />
     <ClCompile Include="basic.cpp" />
-    <ClCompile Include="coinFlip.cpp" />
+    <ClCompile Include="chance.cpp" />
+    <ClCompile Include="defaultPRNG.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="random.cpp" />
     <ClCompile Include="start.cpp" />
     <ClCompile Include="threads.cpp" />
   </ItemGroup>
